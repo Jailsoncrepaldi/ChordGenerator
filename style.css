@@ -1,0 +1,43 @@
+body {
+  background-color: #333333; /* Cor de fundo escura */
+  color: #f2f2f2; /* Cor branca para texto */
+  font-family: Arial, sans-serif; /* Fonte */
+  margin: 0; /* Remover margens */
+  padding: 0; /* Remover padding */
+}
+
+/* Botões */
+button {
+  background-color: #555555; /* Cor escura para botões */
+  border: none; /* Remover borda */
+  color: #f2f2f2; /* Cor branca para texto */
+  cursor: pointer; /* Cursor de mão ao passar por cima */
+  font-size: 16px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno */
+  margin: 10px; /* Espaçamento entre botões */
+}
+
+/* Box de acordes */
+#box-chord {
+  background-color: #444444; /* Cor escura para box */
+  padding: 20px; /* Espaçamento interno */
+  margin: 10px; /* Espaçamento externo */
+}
+
+#chords {
+  font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  /* Ajustar tamanho dos botões em telas menores */
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  /* Ajustar tamanho da fonte dos acordes em telas menores */
+  #chords {
+    font-size: 16px;
+  }
+}
